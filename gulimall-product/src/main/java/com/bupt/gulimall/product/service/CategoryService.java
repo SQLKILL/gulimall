@@ -1,7 +1,7 @@
 package com.bupt.gulimall.product.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.bupt.gulimallcommon.utils.PageUtils;
+import com.bupt.gulimall.common.utils.PageUtils;
 import com.bupt.gulimall.product.entity.CategoryEntity;
 
 import java.util.Map;

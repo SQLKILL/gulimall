@@ -1,12 +1,14 @@
 package com.bupt.gulimall.product.service.impl;
 
 import org.springframework.stereotype.Service;
+
 import java.util.Map;
+
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.bupt.gulimallcommon.utils.PageUtils;
-import com.bupt.gulimallcommon.utils.Query;
+import com.bupt.gulimall.common.utils.PageUtils;
+import com.bupt.gulimall.common.utils.Query;
 
 import com.bupt.gulimall.product.dao.CategoryBrandRelationDao;
 import com.bupt.gulimall.product.entity.CategoryBrandRelationEntity;
