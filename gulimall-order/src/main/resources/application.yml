@@ -5,6 +5,12 @@ spring:
     password: root
     url: jdbc:mysql://192.168.225.128:3306/gulimall_oms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1
+  application:
+    name: gulimall-order
 mybatis-plus:
   #  扫描依赖的jar包下的所有mapper.xml
   mapper-locations: classpath:/mapper/**/*.xml
