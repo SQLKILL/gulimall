@@ -1,4 +1,4 @@
-package com.butp.gulimall.gateway;
+package com.bupt.gulimall.gateway;
 
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
